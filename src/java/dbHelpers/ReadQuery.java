@@ -104,6 +104,10 @@ public class ReadQuery {
         table += "Email Address";
         table += "</th>";
         
+        table += "<th>";
+        table += "Update & Delete";
+        table += "</th>";
+        
         try {
             while(this.results.next()){
                 
@@ -153,6 +157,10 @@ public class ReadQuery {
                 
                 table += "<td>";
                 table += customers.getEmailAddr();
+                table += "</td>";
+                
+                table += "<td>";
+                table += "<a href=delete?CustID=" + customers.getCustID() + "> Delete </a>";
                 table += "</td>";
                 
                 table += "</tr>";  
