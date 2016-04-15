@@ -1,0 +1,64 @@
+body {
+    background: black; font-family:"CG Omega";
+}
+
+h1 {
+    color: white; font-style: italic; font-weight: bold; text-align: center;
+}
+
+table, th, td {
+    border: 1px solid; border-color: white;
+}
+
+table {
+    border-collapse: collapse;
+    width: 75%;
+}
+
+th {
+    height: 25px;
+    text-align: left;
+    background-color: gray;
+    color: gold;
+}
+
+td {
+    height: 35px; vertical-align: bottom;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+tr:hover {background-color: black}
+tr:nth-child(odd) {background-color: #2f2f2f}
+
+tr {
+    background-color: gold;
+    color: grey;
+}
+
+a {
+    color: white;
+    text-align: center;
+}
+
+hr {width: 500px;}
+
+input[readonly] {background-color:gray;}
+
+form{
+    margin: 0 auto;
+    width: 500px;
+    height: 250px;
+    font-style: italic;
+    line-height: 24px;
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid #999;
+}
+
+p {color: gold;}
