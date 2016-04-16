@@ -8,9 +8,18 @@
     </head>
     
     <body>
+        
+        <div class="wrap">
+            
+            <%@ include file="includes2/Header.jsp" %>
+            
+            <%@ include file="includes2/Menu.jsp" %>
+            
+        <div class="main">
+        
         <h1>Add A New Customer</h1>
         <hr></hr>
-        <form name="addForm" action="addCustomers" method="post">
+        <form name="addForm" action="addCustomers" method="get">
         
             <label>First Name:</label>
                 <input type="text" name="FirstName" value="" size="50" required />
@@ -40,8 +49,13 @@
             <input type="reset" value="Clear" name="clear">
             <input type="submit" value="Submit" name="submit">
             
-            
         </form>
+        
+        </div>
+            
+            <%@ include file="includes2/Footer.jsp" %>
+            
+        </div>
         
     </body>
 </html>
