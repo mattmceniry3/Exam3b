@@ -22,7 +22,7 @@
         <h1>Update A Customer</h1>
         
         <hr></hr>
-        <form name="updateForm" action="updateCustomers" method="get">
+        <form name="updateForm" action="updateCustomers" method="post">
             
             <label>ID:</label>
                 <input type="number" name="CustID" value="<%= customers.getCustID() %>" size="38" readonly />

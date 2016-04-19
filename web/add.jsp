@@ -19,7 +19,7 @@
         
         <h1>Add A New Customer</h1>
         <hr></hr>
-        <form name="addForm" action="addCustomers" method="get">
+        <form name="addForm" action="addCustomers" method="post">
         
             <label>First Name:</label>
                 <input type="text" name="FirstName" value="" size="50" required />
