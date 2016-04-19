@@ -57,6 +57,7 @@ public class SearchQuery {
             
             PreparedStatement ps = conn.prepareStatement(query);
             ps.setString(1, "%" + Name.toUpperCase() + "%");
+            ps.setString(2, "%" + Name.toUpperCase() + "%");
             this.results = ps.executeQuery();
         } catch (SQLException ex) {
             Logger.getLogger(SearchQuery.class.getName()).log(Level.SEVERE, null, ex);
