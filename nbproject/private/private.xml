@@ -2,12 +2,6 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group>
-            <file>file://home.iowa.uiowa.edu/mmmceniry/NetBeansProjects/Exam3b/web/includes2/Menu.jsp</file>
-            <file>file://home.iowa.uiowa.edu/mmmceniry/NetBeansProjects/Exam3b/web/updateForm.jsp</file>
-            <file>file://home.iowa.uiowa.edu/mmmceniry/NetBeansProjects/Exam3b/web/add.jsp</file>
-            <file>file://home.iowa.uiowa.edu/mmmceniry/NetBeansProjects/Exam3b/src/java/controller/SearchServlet.java</file>
-            <file>file://home.iowa.uiowa.edu/mmmceniry/NetBeansProjects/Exam3b/src/java/dbHelpers/SearchQuery.java</file>
-        </group>
+        <group/>
     </open-files>
 </project-private>

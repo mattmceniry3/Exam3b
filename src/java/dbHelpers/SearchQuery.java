@@ -53,7 +53,7 @@ public class SearchQuery {
     public void doSearch(String Name){
         
         try {
-            String query = "SELECT * FROM customers WHERE (UPPER (FirstName) LIKE ? ORDER BY CustID ASC) or (SELECT * FROM customers WHERE UPPER (LastName) LIKE ? ORDER BY CustID ASC)";
+            String query = "SELECT * FROM customers WHERE UPPER (FirstName) LIKE ? OR UPPER (LastName) LIKE ? ORDER BY CustID ASC";
             
             PreparedStatement ps = conn.prepareStatement(query);
             ps.setString(1, "%" + Name.toUpperCase() + "%");
